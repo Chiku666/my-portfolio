@@ -271,3 +271,20 @@ footer {
     .contact-container { flex-direction: column; gap: 2rem; }
     .hero-image .img-box { width: 280px; height: 280px; }
 }
+
+/* Mode js */
+body.light-theme {
+    --bg-dark: #c4d2ee;  
+    --bg-card: #82b8db;
+    --text-white: #4f6982;
+    --text-muted: #394554;
+}
+
+body.light-theme .nav-links a:hover,
+body.light-theme .nav-links a.active {
+    color: var(--primary-blue);
+}
+
+body.light-theme .about-card:hover {
+    background: #a3b8e2;
+}
